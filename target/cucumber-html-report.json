@@ -1,0 +1,267 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2019-05-29T17:51:35.208Z",
+        "before": [
+          {
+            "result": {
+              "duration": 214140954,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Clientes.before(Scenario)"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Cliente válido",
+        "description": "",
+        "id": "cadastrar-cliente;cliente-válido;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\n\tat robo.Robo.acessarPagina(Robo.java:65)\n\tat passos.loja.Clientes.oUsuarioAcessouAPaginaDeCadastro(Clientes.java:36)\n\tat ✽.o usuario acessou a pagina de cadastro(file:src/test/java/casos_de_testes/loja/CadastrarCliente.feature:6)\n",
+              "duration": 2450529,
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "o usuario acessou a pagina de cadastro",
+            "match": {
+              "location": "Clientes.oUsuarioAcessouAPaginaDeCadastro()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 14966,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "incluir o cliente de primeiro nome \"Teste\" sobrenome \"Jônatas Kirsch\" email \"teste.jonatas2@mailcatch.com\" telefone \"1185859696\" senha \"159753\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Teste\"",
+                  "offset": 35
+                },
+                {
+                  "val": "\"Jônatas Kirsch\"",
+                  "offset": 53
+                },
+                {
+                  "val": "\"teste.jonatas2@mailcatch.com\"",
+                  "offset": 76
+                },
+                {
+                  "val": "\"1185859696\"",
+                  "offset": 116
+                },
+                {
+                  "val": "\"159753\"",
+                  "offset": 135
+                }
+              ],
+              "location": "Clientes.incluirOClienteDePrimeiroNomeSobrenomeEmailTelefoneSenha(String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 23766,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "o sistema deve salvar o cliente corretamente",
+            "match": {
+              "location": "Clientes.oSistemaDeveSalvarOClienteCorretamente()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Automacao"
+          },
+          {
+            "name": "@Loja"
+          },
+          {
+            "name": "@Clientes"
+          },
+          {
+            "name": "@CadastrarCliente"
+          },
+          {
+            "name": "@JonatasKirsch"
+          }
+        ]
+      }
+    ],
+    "name": "Cadastrar cliente",
+    "description": "  Cadastra um cliente no sistema",
+    "id": "cadastrar-cliente",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/casos_de_testes/loja/CadastrarCliente.feature",
+    "tags": [
+      {
+        "name": "@Automacao",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@Loja",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 12
+        }
+      },
+      {
+        "name": "@Clientes",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 18
+        }
+      },
+      {
+        "name": "@CadastrarCliente",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 28
+        }
+      },
+      {
+        "name": "@JonatasKirsch",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 46
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2019-05-29T17:51:35.433Z",
+        "before": [
+          {
+            "result": {
+              "duration": 86327662,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Login.before(Scenario)"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Login valido",
+        "description": "",
+        "id": "logar-cliente;login-valido;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\n\tat robo.Robo.acessarPagina(Robo.java:65)\n\tat passos.loja.Login.oUsuarioAcessouAPaginaDeLogin(Login.java:38)\n\tat ✽.o usuario acessou a pagina de login(file:src/test/java/casos_de_testes/loja/Login.feature:6)\n",
+              "duration": 391701,
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "o usuario acessou a pagina de login",
+            "match": {
+              "location": "Login.oUsuarioAcessouAPaginaDeLogin()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 13203,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "digitar o email \"teste.cadastro@mailcatch.com\" e a senha \"123456\" no login",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"teste.cadastro@mailcatch.com\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"123456\"",
+                  "offset": 57
+                }
+              ],
+              "location": "Login.digitarOEmailEASenha(String,String)"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Automacao"
+          },
+          {
+            "name": "@Loja"
+          },
+          {
+            "name": "@LoginLoja"
+          },
+          {
+            "name": "@JonatasKirsch"
+          }
+        ]
+      }
+    ],
+    "name": "Logar cliente",
+    "description": "  Loga um cliente no sistema",
+    "id": "logar-cliente",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/casos_de_testes/loja/Login.feature",
+    "tags": [
+      {
+        "name": "@Automacao",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@Loja",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 12
+        }
+      },
+      {
+        "name": "@LoginLoja",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 18
+        }
+      },
+      {
+        "name": "@JonatasKirsch",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 29
+        }
+      }
+    ]
+  }
+]

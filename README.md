@@ -1,2 +1,2 @@
 # agendai-automacao
-Repositório de Automação Tests Agendai com Selenium WebDriver
+Repositório de Automação Tests Agendai

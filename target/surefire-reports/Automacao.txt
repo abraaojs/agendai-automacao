@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: Automacao
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.574 sec <<< FAILURE! - in Automacao
+Cliente válido(Cadastrar cliente)  Time elapsed: 0.224 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at robo.Robo.acessarPagina(Robo.java:65)
+	at passos.loja.Clientes.oUsuarioAcessouAPaginaDeCadastro(Clientes.java:36)
+	at ✽.o usuario acessou a pagina de cadastro(file:src/test/java/casos_de_testes/loja/CadastrarCliente.feature:6)
+
+Login valido(Logar cliente)  Time elapsed: 0.118 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at robo.Robo.acessarPagina(Robo.java:65)
+	at passos.loja.Login.oUsuarioAcessouAPaginaDeLogin(Login.java:38)
+	at ✽.o usuario acessou a pagina de login(file:src/test/java/casos_de_testes/loja/Login.feature:6)
+
